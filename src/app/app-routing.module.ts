@@ -6,6 +6,7 @@ import { PathResolveService } from './path-resolve.service';
 import { AlbumsComponent } from './music-library/albums/albums.component';
 import { EditorialComponent } from './admin/editorial/editorial.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './admin/login/login.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,10 @@ const routes: Routes = [
     redirectTo: paths.home
   },
   {
+    path: paths.login,
+    component: LoginComponent
+  },
+    {
     path: paths.home,
     component: HomeComponent
   },
