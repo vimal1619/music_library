@@ -7,6 +7,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
 import { AdminModule } from './admin/admin.module';
 import { MusicLibraryModule } from './music-library/music-library.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MusicLibraryModule } from './music-library/music-library.module';
     BrowserModule,
     AppRoutingModule,
     AdminModule,
-    MusicLibraryModule
+    MusicLibraryModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
